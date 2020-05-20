@@ -1,0 +1,286 @@
+#grid-container.light-pink {
+  font-family: "Nunito", sans-serif;
+  background-color: PINK;
+  h1 {
+    color: #6e5672;
+    font-family: "Permanent Marker", cursive;
+  }
+  p {
+    color: rgb(31, 31, 31);
+  }
+  #header {
+    background-color: #8873a5;
+    nav {
+      a {
+        color: rgb(226, 226, 226);
+      }
+    }
+  }
+  section#hero {
+    background-blend-mode: hue;
+    background-color: #18030c3f;
+    .content {
+      h1 {
+        color: #4a2a3e;
+      }
+      p {
+        color: #4a2a3e;
+      }
+    }
+  }
+  section#section2 {
+    background: #ffe5ea82;
+  }
+  #left-side {
+    background-color: #c6aeb2;
+  }
+  section#gallery {
+    background-color: #ffe5ea82;
+    .gallery-images {
+      .card {
+        border: none;
+        background-image: linear-gradient(
+          135deg,
+          #d86f9b,
+          #d680ba,
+          #ce92d6,
+          #c1a5ed,
+          #b2b7ff
+        );
+        border-radius: 10px;
+        img {
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+#grid-container.light-blue {
+  font-family: "Nunito", sans-serif;
+  h1 {
+    color: #324b4f;
+  }
+  p {
+    color: rgb(31, 31, 31);
+  }
+  #header {
+    background-color: #4a4de7;
+    nav {
+      a {
+        color: rgb(226, 226, 226);
+      }
+    }
+  }
+  section#hero {
+    background-color: #05062c60;
+    background-blend-mode: overlay;
+    .content {
+      h1 {
+        color: #f1fafb;
+      }
+      p {
+        color: #f1fafb;
+      }
+    }
+  }
+  section#section2 {
+    background: #bbedf7;
+  }
+  #left-side {
+    background-color: #00a8ce;
+  }
+  section#gallery {
+    background: #bbedf7;
+    .gallery-images {
+      .card {
+        border: none;
+        background-image: linear-gradient(90deg, #0079ff, #009aff, #00d1fa);
+        border-radius: 10px;
+        color: white;
+        img {
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+#grid-container.orange-black {
+  font-family: "Nunito", sans-serif;
+  h1 {
+    color: #e66a00;
+    font-family: "Sigmar One", cursive;
+  }
+  p {
+    color: #f5deb3;
+  }
+  h2,
+  h3 {
+    color: wheat;
+  }
+  background-color: rgb(18, 18, 18);
+  #header {
+    background-color: #37290e;
+    nav {
+      a {
+        color: rgb(226, 226, 226);
+      }
+    }
+  }
+  section#hero {
+    background-color: rgba(0, 0, 0, 0.411);
+    background-blend-mode: hue;
+
+    .content {
+      h1 {
+        color: #f5deb3;
+      }
+      p {
+        color: #f1fafb;
+      }
+    }
+  }
+  section#section2 {
+    background-color: transparent;
+  }
+  section#gallery {
+    .gallery-images {
+      .card {
+        border: none;
+        background: #232323;
+
+        border-radius: 10px;
+        h2 {
+          color: #f5deb3;
+        }
+        img {
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+#grid-container.yellow {
+  font-family: "Nunito", sans-serif;
+  h1 {
+    color: #2f4858;
+    font-family: "Bitter", serif;
+  }
+  p {
+    color: #2f4858;
+  }
+  h2,
+  h3 {
+    color: wheat;
+  }
+  background-color: #faf1ca;
+  #header {
+    background-color: #000000;
+    nav {
+      a {
+        color: rgb(226, 226, 226);
+      }
+    }
+  }
+  section#hero {
+    background-color: rgba(0, 0, 0, 0.308);
+    background-blend-mode: hue;
+
+    .content {
+      h1 {
+        color: #f2fedc;
+      }
+      p {
+        color: #f1fafb;
+      }
+    }
+  }
+  section#section2 {
+    background-color: #faf1ca;
+  }
+  section#gallery {
+    background-color: #2f4858;
+    h1 {
+      color: #c4b803;
+    }
+    .gallery-images {
+      .card {
+        border: none;
+        background: #faf1ca;
+        border-radius: 10px;
+        h2 {
+          color: #2f4858;
+        }
+        p {
+          color: #2f4858;
+        }
+        img {
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+#grid-container.marvel {
+  font-family: "Nunito", sans-serif;
+  h1 {
+    color: #da1c22;
+    font-family: "Bitter", serif;
+  }
+  p {
+    color: #e4e4e4;
+  }
+  h2,
+  h3 {
+    color: wheat;
+  }
+  background-color: #02050c;
+  #header {
+    background-color: #10293a;
+    nav {
+      a {
+        color: rgb(226, 226, 226);
+      }
+    }
+  }
+  section#hero {
+    background-color: rgba(0, 0, 0, 0.26);
+    background-blend-mode: hue;
+
+    .content {
+      h1 {
+        color: #8a929a;
+      }
+      p {
+        color: #e4e4e4;
+      }
+    }
+  }
+  section#section2 {
+    background-color: transparent;
+  }
+  section#gallery {
+    .gallery-cards {
+      .card {
+        border: none;
+        background: transparent;
+
+        border-radius: 10px;
+        h2 {
+          color: #8a929a;
+        }
+        img {
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+    }
+  }
+}
